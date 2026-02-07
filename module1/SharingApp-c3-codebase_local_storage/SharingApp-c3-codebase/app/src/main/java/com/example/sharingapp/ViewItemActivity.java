@@ -99,7 +99,7 @@ public class ViewItemActivity extends AppCompatActivity implements Observer {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();`
+        super.onBackPressed();
         Intent borrow_intent = new Intent(this, BorrowedItemsActivity.class);
         borrow_intent.putExtra("user_id", user_id);
         startActivity(borrow_intent);
